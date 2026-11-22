@@ -1,5 +1,5 @@
 # EX.No.2.1  CREATE A 3D SOLID MODEL FROM ISOMETRIC DRAWING
-## Date:
+## Date: 12-10-2026
 
 ## AIM
 To create a 3Dmodel from the given isometric drawing using fusion 360 tool. 
@@ -17,6 +17,8 @@ To create a 3Dmodel from the given isometric drawing using fusion 360 tool.
 2. Create a new design file.
 3. Click on Create Sketch.
 
+<img width="261" height="326" alt="Screenshot (42)" src="https://github.com/user-attachments/assets/79d2ed39-99cf-4944-8ffa-7528b4922d78" />
+           
 4. Select the Front (XZ) Plane.
 
 ### Step-2: Create a Rectangle
@@ -27,6 +29,8 @@ To create a 3Dmodel from the given isometric drawing using fusion 360 tool.
 5. Click Line and the line of length 100mm.
 6. Click finish sketch. 
 
+<img width="410" height="513" alt="Screenshot (38)" src="https://github.com/user-attachments/assets/4c8e2536-aba9-4924-b3c5-b0a40d31a9c1" />
+
 
 ### Step-3: Apply Extrusion to the Rectangle
 1. Choose the Extrude command from the Solid toolbar.
@@ -34,7 +38,9 @@ To create a 3Dmodel from the given isometric drawing using fusion 360 tool.
 3. Click it again to place the value.
 4. Enter 30 mm as the extrusion distance.
 5. Press Enter to confirm the operation and create the rectangular solid.
-           
+
+<img width="454" height="806" alt="Screenshot      (82)" src="https://github.com/user-attachments/assets/47be993a-481b-4d41-99eb-1b077fc4872b" />
+
 
 ### Step-4: Create a New Sketch 
 1. Select Create Sketch from the toolbar to begin another sketch. 
@@ -96,6 +102,7 @@ To create a 3Dmodel from the given isometric drawing using fusion 360 tool.
 4. Drag the arrow up to the required distance.
 5. Press Enter to apply the chamfer.
            
+<img width="415" height="738" alt="Screenshot    (84)" src="https://github.com/user-attachments/assets/9276b865-ed36-49d4-901a-3f65f2834fd4" />
            
 
 ### Step-14: Create drawing file
@@ -108,6 +115,10 @@ To create a 3Dmodel from the given isometric drawing using fusion 360 tool.
 ![image](https://user-images.githubusercontent.com/113594316/198495472-9a69edb1-f0c6-470c-b9ae-fe282fa6a678.png)
 
 ## OUTPUT
+
+<img width="1010" height="722" alt="Screenshot (85)" src="https://github.com/user-attachments/assets/bc60995c-1f9d-4c07-aa79-e86c7bc3ad15" />
+
+<img width="943" height="673" alt="Screenshot (86)" src="https://github.com/user-attachments/assets/cb2a6298-2fd0-4754-9c5c-17c07b100ff1" />
 
 ## RESULT: 
  Thus, the 3D model is created from given isometric drawing.
