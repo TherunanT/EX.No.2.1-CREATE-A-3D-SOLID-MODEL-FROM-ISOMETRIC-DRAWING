@@ -75,13 +75,13 @@ To create a 3Dmodel from the given isometric drawing using fusion 360 tool.
 7. Click to complete the circle with the required dimension.
 8. Select Finish Sketch.
 
-### Step-10: Extrude the structures on top of the rectangle
+### Step-9: Extrude the structures on top of the rectangle
 1. Select the Extrude command from the Solid toolbar.
 2. Click on the circular and square sketch profile to select it.
 3. Specify the extrusion distance as 5 mm.
 4. Press Enter to apply the extrusion.
 
-### Step-11: Create slope structure on top of the rectangle
+### Step-10: Create slope structure on top of the rectangle
 1. Select Create Sketch from the toolbar to start a new sketch. 
 2. Click on the top face of the rectangular block to select it.
 3. Click Create > Rectangle > Center Rectangle.
@@ -89,13 +89,13 @@ To create a 3Dmodel from the given isometric drawing using fusion 360 tool.
 5. Place the square.
 6. Click finish sketch. 
 
-### Step-12: Apply Extrusion
+### Step-11: Apply Extrusion
 1. Select the Extrude command from the Solid toolbar.
 2. Click on the square sketch profile to select it.
 3. Specify the extrusion distance as 10 mm.
 4. Press Enter to apply the extrusion.
 
-### Step-13: Chamfer
+### Step-12: Chamfer
 1. Select the Chamfer command from the Solid toolbar.
 2. Select Equal distance chamfer
 3. Click on the edge of the profile needed to chamfer.
@@ -105,7 +105,7 @@ To create a 3Dmodel from the given isometric drawing using fusion 360 tool.
 <img width="415" height="738" alt="Screenshot    (84)" src="https://github.com/user-attachments/assets/9276b865-ed36-49d4-901a-3f65f2834fd4" />
            
 
-### Step-14: Create drawing file
+### Step-13: Create drawing file
 1. Click File > New > Drawing
 2. Place the required views of the projection.
 3. Mark the dimensions.
