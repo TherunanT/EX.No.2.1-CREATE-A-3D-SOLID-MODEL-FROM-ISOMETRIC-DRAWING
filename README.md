@@ -12,60 +12,97 @@ To create a 3Dmodel from the given isometric drawing using fusion 360 tool.
 
 ## PROCEDURE
 
- ### STEP-1:  Start the sketch command
+###Step-1: Start Sketch command and Select the Plane  
+1. Open Autodesk Fusion 360.
+2. Create a new design file.
+3. Click on Create Sketch.
 
-   Select Sketch > Create Sketch.
+4. Select the Front (XZ) Plane.
 
- ### STEP-2:  Select the Sketch Plane
+###Step-2: Create a Rectangle
+1. Click Create > Rectangle > Center Rectangle.
+2. Hover the cursor over the origin(center) you would see the cursor snap, then click there .
+3. Then create a rectangle of dimensions having length 100mm and width 60mm.
+4. Place the rectangle.
+5. Click Line and the line of length 100mm.
+6. Click finish sketch. 
 
-   Select the Front (XZ) Plane
 
-### STEP-3: Create a Rectangle 
+###Step-3: Apply Extrusion to the Rectangle
+1. Choose the Extrude command from the Solid toolbar.
+2. Select the rectangular profile created in the previous step.
+3. Click it again to place the value.
+4. Enter 30 mm as the extrusion distance.
+5. Press Enter to confirm the operation and create the rectangular solid.
+           
 
-   1.	Select Sketch > Rectangle > Center Rectangle.
-   2.	Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
-   3.	Click once to begin placing the rectangle.
-   4.	Type the Tab button and enter the values 100 mm and 60mm for the width and height respectively.
-   5.	Click again to place the rectangle.
-   6.	Click Finish Sketch after completing.
+###Step-4: Create a New Sketch 
+1. Select Create Sketch from the toolbar to begin another sketch. 
+2. Select the front surface of the rectangular solid as the sketch plane.
 
- ### STEP-4: Extrude Rectangle in XZ Plane
-   1.	Select Extrude.
-   2.	Select the Rectangle sketch.
-   3.	Click again to place the value.
-   4.	Type in the value of 30mm. 
-   5.	Press ENTER to accept the value.
+###Step-5: Draw the Circle 
+1. Open Sketch > Circle and select the Center Diameter Circle tool.
+2. Move the cursor to the centre point of the selected face.
+3. Click to specify the centre of the circle.
+4. Press the Tab key and enter the circle diameter as 100 mm.
+5. Click to complete the circle with the required dimension.
+6. Select Finish Sketch.
 
- ### STEP-5:  Start the sketch command
-   Select Sketch > Create Sketch.
- ### STEP-6: Select the Sketch Plane
-   Select the FRON SURFACE of rectangular block 
- ### STEP-7: Create a CIRCLE 
-   1.	Select Sketch >CIRCLE  > CENTER CIRCLE.
-   2.	Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
-   3.	Click once to begin placing the CIRCLE.
-   4.	Type the Tab button and enter the value DIA 100mm .
-   5.	Click again to place the circle.
-   6.	Click Finish Sketch after completing.
+###Step-6: Extrude the Circular Profile 
+1. Select the Extrude command from the Solid toolbar.
+2. Click on the circular sketch profile to select it.
+3. Specify the extrusion distance as 20 mm.
+4. Press Enter to apply the extrusion.
+  
 
- ### STEP-8:  Extrude CIRCLE 
-   1.	Select Extrude.
-   2.	Select the Rectangle sketch.
-   3.	Click again to place the value.
-   4.	Type in the value of 20mm. 
-   5.	Press ENTER to accept the value.
+###Step-7: Create Another Sketch 
+1. Select Create Sketch from the toolbar to start a new sketch. 
+2. Click on the top face of the rectangular block to select it.
 
- ### STEP-9: Start the sketch command
-   Select Sketch > Create Sketch.
-   
- ### STEP-10: Select the Sketch Plane
-   Select the TOP SURFACE OF RECTANGLE.
-   
- ### STEP-11: Create a line
-	1.Select Line command.
-	2. Draw the projections in the diagram 
-	3. Click Finish Sketch.
-	4. extrude the sketch.
+###Step-8: Create structures on top of the rectangle
+1. Click Create > Rectangle > 2 Point  Rectangle.
+2. Click the first point 15mm away from both the top and left side of the rectangular  surface.
+3. Type the length 10mm and width 10mm to form a square.
+4. Open Sketch > Circle and select the Center Diameter Circle tool.
+5. Place the center point at 15mm away from both the top and right sides of the rectangular  surface.
+6. Press the Tab key and enter the circle diameter as 20 mm.
+7. Click to complete the circle with the required dimension.
+8. Select Finish Sketch.
+
+###Step-9: Extrude the structures on top of the rectangle
+1. Select the Extrude command from the Solid toolbar.
+2. Click on the circular and square sketch profile to select it.
+3. Specify the extrusion distance as 5 mm.
+4. Press Enter to apply the extrusion.
+
+###Step-8: Create slope structure on top of the rectangle
+1. Select Create Sketch from the toolbar to start a new sketch. 
+2. Click on the top face of the rectangular block to select it.
+3. Click Create > Rectangle > Center Rectangle.
+4. Then create a rectangle of dimensions having length 30mm and width 30mm.
+5. Place the square.
+6. Click finish sketch. 
+
+###Step-9: Apply Extrusion
+1. Select the Extrude command from the Solid toolbar.
+2. Click on the square sketch profile to select it.
+3. Specify the extrusion distance as 10 mm.
+4. Press Enter to apply the extrusion.
+
+###Step-10: Chamfer
+1. Select the Chamfer command from the Solid toolbar.
+2. Select Equal distance chamfer
+3. Click on the edge of the profile needed to chamfer.
+4. Drag the arrow up to the required distance.
+5. Press Enter to apply the chamfer.
+           
+           
+
+###Step-11: Create drawing file
+1. Click File > New > Drawing
+2. Place the required views of the projection.
+3. Mark the dimensions.
+
 
 ## INPUT
 ![image](https://user-images.githubusercontent.com/113594316/198495472-9a69edb1-f0c6-470c-b9ae-fe282fa6a678.png)
