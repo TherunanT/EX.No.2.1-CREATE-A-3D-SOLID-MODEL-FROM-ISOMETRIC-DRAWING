@@ -12,14 +12,14 @@ To create a 3Dmodel from the given isometric drawing using fusion 360 tool.
 
 ## PROCEDURE
 
-###Step-1: Start Sketch command and Select the Plane  
+### Step-1: Start Sketch command and Select the Plane  
 1. Open Autodesk Fusion 360.
 2. Create a new design file.
 3. Click on Create Sketch.
 
 4. Select the Front (XZ) Plane.
 
-###Step-2: Create a Rectangle
+### Step-2: Create a Rectangle
 1. Click Create > Rectangle > Center Rectangle.
 2. Hover the cursor over the origin(center) you would see the cursor snap, then click there .
 3. Then create a rectangle of dimensions having length 100mm and width 60mm.
@@ -28,7 +28,7 @@ To create a 3Dmodel from the given isometric drawing using fusion 360 tool.
 6. Click finish sketch. 
 
 
-###Step-3: Apply Extrusion to the Rectangle
+### Step-3: Apply Extrusion to the Rectangle
 1. Choose the Extrude command from the Solid toolbar.
 2. Select the rectangular profile created in the previous step.
 3. Click it again to place the value.
@@ -36,11 +36,11 @@ To create a 3Dmodel from the given isometric drawing using fusion 360 tool.
 5. Press Enter to confirm the operation and create the rectangular solid.
            
 
-###Step-4: Create a New Sketch 
+### Step-4: Create a New Sketch 
 1. Select Create Sketch from the toolbar to begin another sketch. 
 2. Select the front surface of the rectangular solid as the sketch plane.
 
-###Step-5: Draw the Circle 
+### Step-5: Draw the Circle 
 1. Open Sketch > Circle and select the Center Diameter Circle tool.
 2. Move the cursor to the centre point of the selected face.
 3. Click to specify the centre of the circle.
@@ -48,18 +48,18 @@ To create a 3Dmodel from the given isometric drawing using fusion 360 tool.
 5. Click to complete the circle with the required dimension.
 6. Select Finish Sketch.
 
-###Step-6: Extrude the Circular Profile 
+### Step-6: Extrude the Circular Profile 
 1. Select the Extrude command from the Solid toolbar.
 2. Click on the circular sketch profile to select it.
 3. Specify the extrusion distance as 20 mm.
 4. Press Enter to apply the extrusion.
   
 
-###Step-7: Create Another Sketch 
+### Step-7: Create Another Sketch 
 1. Select Create Sketch from the toolbar to start a new sketch. 
 2. Click on the top face of the rectangular block to select it.
 
-###Step-8: Create structures on top of the rectangle
+### Step-8: Create structures on top of the rectangle
 1. Click Create > Rectangle > 2 Point  Rectangle.
 2. Click the first point 15mm away from both the top and left side of the rectangular  surface.
 3. Type the length 10mm and width 10mm to form a square.
@@ -69,13 +69,13 @@ To create a 3Dmodel from the given isometric drawing using fusion 360 tool.
 7. Click to complete the circle with the required dimension.
 8. Select Finish Sketch.
 
-###Step-9: Extrude the structures on top of the rectangle
+### Step-10: Extrude the structures on top of the rectangle
 1. Select the Extrude command from the Solid toolbar.
 2. Click on the circular and square sketch profile to select it.
 3. Specify the extrusion distance as 5 mm.
 4. Press Enter to apply the extrusion.
 
-###Step-8: Create slope structure on top of the rectangle
+### Step-11: Create slope structure on top of the rectangle
 1. Select Create Sketch from the toolbar to start a new sketch. 
 2. Click on the top face of the rectangular block to select it.
 3. Click Create > Rectangle > Center Rectangle.
@@ -83,13 +83,13 @@ To create a 3Dmodel from the given isometric drawing using fusion 360 tool.
 5. Place the square.
 6. Click finish sketch. 
 
-###Step-9: Apply Extrusion
+### Step-12: Apply Extrusion
 1. Select the Extrude command from the Solid toolbar.
 2. Click on the square sketch profile to select it.
 3. Specify the extrusion distance as 10 mm.
 4. Press Enter to apply the extrusion.
 
-###Step-10: Chamfer
+### Step-13: Chamfer
 1. Select the Chamfer command from the Solid toolbar.
 2. Select Equal distance chamfer
 3. Click on the edge of the profile needed to chamfer.
@@ -98,7 +98,7 @@ To create a 3Dmodel from the given isometric drawing using fusion 360 tool.
            
            
 
-###Step-11: Create drawing file
+### Step-14: Create drawing file
 1. Click File > New > Drawing
 2. Place the required views of the projection.
 3. Mark the dimensions.
